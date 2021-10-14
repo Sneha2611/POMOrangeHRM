@@ -1,0 +1,6 @@
+com\qa\base\BaseTest.class
+com\qa\utilities\ReadConfig.class
+com\qa\utilities\Reporting.class
+com\qa\pageobjects\HomePage.class
+com\qa\pageobjects\RecruitmentPage.class
+com\qa\pageobjects\LoginPage.class

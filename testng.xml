@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRM" parallel="tests" verbose="6" >
+
+	<listeners>
+		<listener class-name="com.qa.utilities.Reporting"></listener>
+	</listeners>
+
+	
+	<test name="OrangeHRM Functional Tests" >
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.testcases.LoginTest_001"/>
+			<class name="com.qa.testcases.Recruitement_Add_candidates_002"/>
+		</classes>
+
+	</test>
+
+</suite>
